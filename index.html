@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antipode Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        Select a location on the left to see the exact opposite side of the world on the right.
+    </div>
+    <div id="coords-bar">
+        <div id="coords-left" class="coords-box">Left Map Coordinates</div>
+        <div id="coords-right" class="coords-box">Right Map Coordinates</div>
+    </div>
+    <div id="container">
+        <div id="map-left" class="map"></div>
+        <div id="map-right" class="map"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
