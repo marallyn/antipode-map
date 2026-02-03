@@ -3,11 +3,11 @@ let markerLeft, markerRight;
 
 // Load Google Maps API dynamically
 function loadGoogleMaps() {
-    if (typeof CONFIG === 'undefined' || !CONFIG.GOOGLE_MAPS_API_KEY) {
-        console.error("Configuration not found. Please ensure config.js exists and contains GOOGLE_MAPS_API_KEY.");
-        alert("Google Maps API Key is missing. Please check the console.");
-        return;
-    }
+    // if (typeof CONFIG === 'undefined' || !CONFIG.GOOGLE_MAPS_API_KEY) {
+    //     console.error("Configuration not found. Please ensure config.js exists and contains GOOGLE_MAPS_API_KEY.");
+    //     alert("Google Maps API Key is missing. Please check the console.");
+    //     return;
+    // }
     
     // Create the script tag
     const script = document.createElement('script');
